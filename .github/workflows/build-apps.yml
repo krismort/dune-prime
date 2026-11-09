@@ -130,7 +130,7 @@ jobs:
         run: |
           app="$BUILD_SOURCE/build/macos/Dune Prime.app"
           codesign --verify --deep --strict "$app"
-          lipo -verify_arch arm64 x86_64 "$app/Contents/MacOS/dune-prime"
+          lipo "$app/Contents/MacOS/dune-prime" -verify_arch arm64 x86_64
           test "$("$app/Contents/MacOS/dune-prime" --version)" = "$RELEASE_VERSION (build $DUNE_PRIME_BUILD_HASH)"
           mount="$RUNNER_TEMP/dmg-audit"
           mkdir -p "$mount"
