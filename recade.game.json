@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "gameId": "dune-prime",
+  "title": "Dune (Prime)",
+  "description": "A portable native engine for Cryo’s Dune (1992, CD v3.7), available for Windows, macOS and Linux. Supply the original game files from your own CD; no original game content or mods are included.",
+  "creator": "krismort",
+  "category": "Engine reimplementation",
+  "genre": "Adventure strategy",
+  "sourceUrl": "https://github.com/krismort/dune-prime",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "license": "MIT",
+  "instructions": {
+    "setup": "Install the engine package for your operating system. On first launch, copy DUNE.DAT and DNCDPRG.EXE from your own Dune CD v3.7 into the folder shown by Dune Prime. On Debian/Ubuntu Linux, install SDL2 with sudo apt install libsdl2-2.0-0. Other Linux distributions also require SDL2.",
+    "controls": "Use mouse and keyboard. F1 pauses and opens the session overlay; F1 or Escape resumes. Return Home ends the session."
+  },
+  "engineReplacement": {
+    "originalGame": "Dune (1992, CD v3.7)",
+    "fileTypes": [
+      "cd-files"
+    ],
+    "instructions": "Supply DUNE.DAT and DNCDPRG.EXE from your own Dune CD v3.7. The first launch shows where to copy them. The original game content is not included. Linux requires SDL2."
+  },
+  "credits": {
+    "originalAuthor": "Cryo Interactive",
+    "remakeAuthor": "krismort"
+  }
+}

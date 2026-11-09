@@ -20,27 +20,24 @@ The macOS app is ad-hoc signed and not notarized; Windows packages are unsigned.
 
 [SHA-256 checksums](https://github.com/krismort/dune-prime/releases/download/v0.1.0/SHA256SUMS) cover all release downloads. Engine source and its checksum are also attached.
 
-Use the attached `DunePrime-<version>-source.tar.gz` asset for the engine source.
-GitHub's automatic **Source code** ZIP/tar downloads contain this release repository's
-metadata and documentation, rather than the engine.
+## re:cade store metadata
 
-## Build from released source
+`recade.game.json` supplies the storefront title, description, platforms, credits,
+controls and original-CD requirements. Read it at the release tag, not a moving branch.
+Compatible releases attach `recade-release.tar.gz` with four native packages, a clean
+launcher screenshot and the checksummed `recade.json` manifest.
 
-Extract the engine source asset. Install a C/C++ compiler, make, pkg-config and SDL2
-development files, then run `make` inside the extracted folder. Its README contains
-platform build and test instructions. No game data or mods are needed to compile.
-For GCC, this initial snapshot requires the standard algorithm header explicitly
-available: `make CXX='g++ -include algorithm'`. The release workflow applies that
-compiler setting without modifying the tagged source.
+Development source is private. Public releases contain engine applications and store
+metadata only. Original game data and mods are never included. GitHub's automatic
+source ZIP/tar links contain only this repository's release metadata.
 
-To play, supply `DUNE.DAT` and `DNCDPRG.EXE` from your own Dune CD version 3.7 as
-explained in the archive's `DUNECD/COPY-GAME-HERE.md`. Keep these files on your own machine.
+The re:cade automatic updater is specified but not enabled by this handoff. An operator
+can import the exact release using the existing manual native-bundle importer.
 
 ## Repository scope
 
 This public repository contains release documentation, version metadata and GitHub
-Releases. Development happens separately. Only reviewed, versioned engine source
-snapshots and application packages are published here as release assets.
+Releases. Development happens separately. Only reviewed application packages and re:cade metadata bundles are published here as release assets.
 
 Mods are independently maintained and installed. No mod packages, original game files,
 extracted game assets, captured fixtures or saved games are included in engine releases.

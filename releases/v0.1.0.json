@@ -5,7 +5,7 @@
     "commit": "22ea583b88d175986685eeee85e75807d43f9316",
     "tag": "v0.1.0"
   },
-  "contents": "engine-source-and-applications",
+  "contents": "engine-applications",
   "game_data_included": false,
   "mod_packages_included": false,
   "assets": [
@@ -35,19 +35,9 @@
       "sha256": "5d86580efb21fa2858449679a0a006860ad991280a1df30c682c78fc4bbb872a"
     },
     {
-      "name": "DunePrime-0.1.0-source.tar.gz",
-      "size": 4419387,
-      "sha256": "49fc9a377e9db6540106b744a37067b5448a2ecb8d2ce9c4b9fdae79f29bd146"
-    },
-    {
-      "name": "DunePrime-0.1.0-source.tar.gz.sha256",
-      "size": 96,
-      "sha256": "503c8d4891618038ba30f55c533b0df2aa9a0d2fa51633b5a348ea2e5fd3a780"
-    },
-    {
       "name": "SHA256SUMS",
-      "size": 756,
-      "sha256": "569c0b8b6f5880d7e0ab868ba59454901dec2d0be5de15c3644b6efe7adfb548"
+      "size": 557,
+      "sha256": "fcef9ac07beea94bf352f49f1ac6d07ea9694133916b4a892b3d9b3548bc5f97"
     }
   ],
   "applications": {

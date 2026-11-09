@@ -1,25 +1,14 @@
-# Release metadata only. Build products are uploaded as selected release assets.
+# Public release metadata only. Engine source and generated assets stay out of Git.
 /*
 !/.gitignore
 !/README.md
 !/LICENSE
+!/VERSION
+!/recade.game.json
 !/releases/
 /releases/*
 !/releases/*.json
 !/releases/*.md
-.DS_Store
-._*
-!/.github/
-!/release-tools/
-__pycache__/
-*.pyc
-/.github/*
-!/.github/workflows/
-/.github/workflows/*
-!/.github/workflows/*.yml
-/release-tools/*
-!/release-tools/*.py
-
 .DS_Store
 ._*
 __pycache__/
