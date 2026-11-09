@@ -1,0 +1,90 @@
+{
+  "version": "0.1.1",
+  "gameId": "dune-prime",
+  "engineCommit": "f85790a1a4a7c874f15b30675142f9404b42fd42",
+  "engineTag": "v0.1.1",
+  "contents": "engine-applications-and-recade-metadata",
+  "source_code_included": false,
+  "game_data_included": false,
+  "mod_packages_included": false,
+  "assets": [
+    {
+      "name": "DunePrime-0.1.1+f85790a1a-linux-arm64.tar.gz",
+      "size": 2073220,
+      "sha256": "8ef64921ca856ff5a2609efb34013c30dfe350c20b239658ba48837ca74f3c66"
+    },
+    {
+      "name": "DunePrime-0.1.1+f85790a1a-linux-x86_64.tar.gz",
+      "size": 2153486,
+      "sha256": "c72641ce4a81569f83bd1f5057b544a2b26e72428aefe72982da86649c248510"
+    },
+    {
+      "name": "DunePrime-0.1.1+f85790a1a-macos-universal.dmg",
+      "size": 6813623,
+      "sha256": "63584fd47e5f67b354a9ae3c21b8575a1c8fa562a309042f7083ce6fdc936647"
+    },
+    {
+      "name": "DunePrime-0.1.1+f85790a1a-windows-x64-setup.exe",
+      "size": 2753641,
+      "sha256": "8221225a4dda3f7daa10c7ed370aefe8f087de0dd3675845875ac913b908cd22"
+    },
+    {
+      "name": "DunePrime-0.1.1+f85790a1a-windows-x64.zip",
+      "size": 2875847,
+      "sha256": "7b36c028a5ae5c5ad43394ed33c35529fec319da80fc7a070e1627ae3969c6e8"
+    },
+    {
+      "name": "recade-release.tar.gz",
+      "size": 13913595,
+      "sha256": "e1e7218efc41328d5da84643217c2cdc01614aa69eb1145428b2e147ad053425"
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 645,
+      "sha256": "1cef9f62fc8b209b9a7d58bb1c99d646006012aad2d1ea4336f310fc4f766135"
+    }
+  ],
+  "verification": {
+    "macos": [
+      "universal arm64 and x86_64",
+      "ad-hoc code signature",
+      "packaged launch",
+      "read-only DMG audit"
+    ],
+    "windows": [
+      "ZIP audit",
+      "NSIS payload audit",
+      "native packaged launch on Windows Server 2022"
+    ],
+    "linux": [
+      "native x86_64 and arm64 builds and packaged launches",
+      "archive audits"
+    ]
+  },
+  "recade": {
+    "descriptor": "recade.game.json",
+    "bundle": "recade-release.tar.gz",
+    "schemaVersion": 1,
+    "requiredTargets": [
+      {
+        "platform": "windows",
+        "arch": "x64"
+      },
+      {
+        "platform": "macos",
+        "arch": "universal"
+      },
+      {
+        "platform": "linux",
+        "arch": "x64"
+      },
+      {
+        "platform": "linux",
+        "arch": "arm64"
+      }
+    ],
+    "screenshots": 1,
+    "validation": "Accepted by the existing re:cade v1 extractor; exact entries, targets, hashes and media checked",
+    "automaticSyncEnabled": false
+  }
+}
