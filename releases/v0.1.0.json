@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "source": {
+    "repository": "krismort/dune-prime-dev",
+    "commit": "22ea583b88d175986685eeee85e75807d43f9316",
+    "tag": "v0.1.0"
+  },
+  "contents": "engine-source-only",
+  "game_data_included": false,
+  "mod_packages_included": false,
+  "assets": [
+    {
+      "name": "DunePrime-0.1.0-source.tar.gz",
+      "size": 4419387,
+      "sha256": "49fc9a377e9db6540106b744a37067b5448a2ecb8d2ce9c4b9fdae79f29bd146"
+    },
+    {
+      "name": "DunePrime-0.1.0-source.tar.gz.sha256",
+      "size": 96,
+      "sha256": "503c8d4891618038ba30f55c533b0df2aa9a0d2fa51633b5a348ea2e5fd3a780"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Release metadata only. Build products are uploaded as selected release assets.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/releases/
+/releases/*
+!/releases/*.json
+!/releases/*.md
+.DS_Store
+._*
